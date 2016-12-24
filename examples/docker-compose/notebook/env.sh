@@ -6,7 +6,7 @@
 # configuration file.
 
 # Container name
-: "${NAME:=my-notebook}"
+: "${NAME:=edward}"
 export NAME
 
 # Exposed container port
