@@ -1,15 +1,11 @@
-# Copyright (c) Jupyter Development Team.
-# Distributed under the terms of the Modified BSD License.
+FROM jupyter/tensorflow-notebook
 
-# Pick your favorite docker-stacks image
-FROM tensorflow
+MAINTAINER Idrees Khan <idreeskhan@users.noreply.github.com>
 
 USER jovyan
 
-# Add permanent pip/conda installs, data files, other user libs here
-# e.g., RUN pip install jupyter_dashboards
+# Install Python 3 Edward
+RUN pip3 install 'edward==1.1.6'
 
-USER root
-
-# Add permanent apt-get installs and other root commands here
-# e.g., RUN apt-get install npm nodejs
+# Install Python 2 Edward
+RUN pip2 install 'edward==1.1.6'
