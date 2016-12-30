@@ -1,4 +1,4 @@
-# Jupyter Notebook Scientific Python Stack + Tensorflow + Edward
+# Jupyter Notebook Scipy Stack + Tensorflow + Edward
 Does not include GPU support
 
 ## Run with Docker
@@ -29,4 +29,4 @@ $ ./down.sh
 ```
 
 ## Run-time Args & Other Configs
-See [Jupyter's Tensorflow README](https://github.com/jupyter/docker-stacks/blob/master/tensorflow-notebook/README.md) for more details. There are a number of other options available including authentication, and SSL configuration.
+See [Jupyter's Tensorflow Container README](https://github.com/jupyter/docker-stacks/blob/master/tensorflow-notebook/README.md) for a number of useful options. There are a number of other options available including authentication, and SSL configuration.
