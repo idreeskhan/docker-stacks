@@ -31,5 +31,5 @@ $ ./down.sh
 ## Run-time Args & Other Configs
 See [Jupyter's Tensorflow Container README](https://github.com/jupyter/docker-stacks/blob/master/tensorflow-notebook/README.md) for a number of useful options. There are a number of other options available including authentication, and SSL configuration.
 
-# New to Docker
+## New to Docker?
 For those new to Docker, I recommend using the [Docker Toolbox](https://www.docker.com/products/docker-toolbox) to get started.

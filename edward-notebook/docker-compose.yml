@@ -6,8 +6,6 @@ services:
     image: idreeskhan/edward
     container_name: ${NAME}
     volumes:
-      - /Users/idrees/work:/home/jovyan/work
+      - ~/work:/home/jovyan/work
     ports:
       - "8888:8888"
-    environment:
-      GRANT_SUDO: "yes"
