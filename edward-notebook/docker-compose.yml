@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+  edward:
+    build: .
+    image: idreeskhan/edward
+    container_name: ${NAME}
+    volumes:
+      - /Users/idrees/work:/home/jovyan/work
+    ports:
+      - "8888:8888"
+    environment:
+      GRANT_SUDO: "yes"
